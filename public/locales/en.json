@@ -1,0 +1,712 @@
+{
+  "history": "History",
+  "services": "Services",
+  "projects": "Projects",
+  "news": "News & Events",
+  "media": "Media",
+  "contact": "Contact Us",
+  "language": "العربية",
+  "municipality": "HASBAYA EL MATEN MUNICIPALITY",
+  "slogan": "Rooted in Tradition, Committed to Progress.",
+  "explore": "Explore Our History",
+  "welcome": "Welcome to Hasbaya,",
+  "heroTitle": "Where Heritage Echoes Through Mountain Stone",
+  "heroDescription": "Perched in the heart of Mount Lebanon, Hasbaya El Maten is a village steeped in tradition and natural beauty. Known for its stone-built charm and strong communal values, it continues to evolve while preserving the essence of its past.",
+  "readMore": "Read More",
+  "population": "Population",
+  "altitude": "Above Sea Level",
+  "area": "Area",
+  "695": "600",
+  "759": "650 and 900",
+  "1.4 km²": "1.4 km²",
+  "23 km": "33 km",
+  "distance": "From Beirut",
+  "yourVoiceTitle": "Your Voice Matters",
+  "yourVoiceDescription": "Have a suggestion, complaint, or an idea to improve our community? We're listening.",
+  "yourVoiceButton": "Leave A Message",
+  "stayConnectedTitle": "Stay Connected!",
+  "stayConnectedDescription": "Follow us on social media for updates & announcements.",
+  "footer": {
+    "explore": "Explore",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "history": "History",
+    "projects": "Projects",
+    "newsEvents": "News & Events",
+    "media": "Media",
+    "suggestions": "Suggestions & Complaints",
+    "payments": "Fee Inquiry",
+    "realEstate": "Real Estate Information",
+    "adminServices": "Administrative Services",
+    "email": "info@hasbayaelmatn.gov.lb",
+    "phone": "+961 70 045 449",
+    "copyright": "© 2025 Hasbaya Municipality. All rights reserved."
+  },
+  "Rehabilitation Work Begins on Village Road": "Rehabilitation Work Begins on Village Road",
+  "Spring Festival Preparation Underway": "Spring Festival Preparation Underway",
+  "New Waste Management Initiative": "New Waste Management Initiative",
+  "Lorem Ipsum is simply dummy text. Lorem Ipsum has been lorem ...": "Lorem Ipsum is simply dummy text. Lorem Ipsum has been lorem ...",
+  "Village getting ready for spring with decorations and joy.": "Village getting ready for spring with decorations and joy.",
+  "Sustainable solutions introduced to manage waste efficiently.": "Sustainable solutions introduced to manage waste efficiently.",
+  "ongoingProjectsLabel": "Ongoing Projects",
+  "ongoingProjectsTitle": "Building A Better Future For Hasbaya Together",
+  "project1Title": "Water Supply Upgrade – Phase 2",
+  "project1Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+  "project2Title": "Public Garden Renovation",
+  "project2Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+  "project3Title": "Road and Paving Works",
+  "project3Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.",
+  "historyPage": {
+    "historyTitleSmall": "Hasbaya el Maten.",
+    "historyTitle": "In a corner of the beautiful upper matn region,",
+    "historyDescription": "Nestled amidst pine, olive, oak, and terebinth trees, Hasbaya spreads across gentle plains, with scattered houses surrounded by apple and pear orchards, and gardens of roses and basil. Every home is infused with the sweet fragrance of these blossoms, perfuming the air and transforming this humble, small town into a vibrant paradise, where nightingales and thrushes roam freely, singing melodious tunes that welcome visitors with joy. As if the Creator, in perfecting this masterpiece of beauty and splendor, wished to shield it from the harshness of nature, He placed it between two mountains, like two mighty guardians standing watch. With its pleasant climate, pure air, fresh waters, and peaceful life, Hasbaya is a place of enchanting charm, crowned with beauty, wrapped in radiance and serenity, embraced by magnificence, and lost in songs of eternal grace and allure.",
+    "history3Para1": "The Ancient History of Hasbaya",
+    "history3Para2": "The word Hasbaya is Syriac and means ceramics workshop. There is no doubt that in ancient times—before the current village community—there existed an older civilization, perhaps Aramean or Phoenician, that manufactured pottery in this very village. This is evidenced by the rock-carved sarcophagi, grape and olive presses, numerous pottery fragments, and coins engraved with the image of Christ the King. However, this area, which was part of the district of Keserwan in ancient history, became depopulated following the Mamluk invasions and its destruction at their hands, leading to the dispersal of its inhabitants in the year 1305.",
+    "history3Para3": "Following the victory of the Qaysi faction alongside Emir Haidar Al-Shihabi over their Yamani rivals in the Battle of Ain Dara, Emir Haidar, in 1712, appointed his allies from the Lam'iyin princes as feudal lords over the Metn region. These princes brought their associates to settle in their estates, including the village of Hasbaya, which was part of the Lam'iyin feudal domain based in the town of Metn.",
+    "history3Para4": "A branch of the Hashem family from Aaqoura and a branch of the Abi Diwan family from Falougha came to Hasbaya, and they became known in Hasbaya as Abi Nassar.",
+    "history3Author": "Written by the late Professor Shaheed El-Khoury Bechara El-Hashem",
+    "history3Source": "from the book \"Hasbaya of the Metn and Its Notable Figures\"",
+    "scenesOfVillage": "Scenes of Our Village"
+  },
+  "contactPage": {
+    "getInTouch": "Get in Touch",
+    "helpTitle": "We're Here to Help",
+    "description": "Have a question, suggestion, or concern?<br />Reach out to us through the details below.",
+    "email": "info@hasbayaelmatn.gov.lb",
+    "phone": "+961 70 045 449",
+    "writeToUs": "Write to Us",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "emailForm": "Email",
+    "phoneForm": "Phone Number",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "meta": {
+    "home": "Hasbaya Municipality",
+    "history": "History - Hasbaya Municipality",
+    "services": "Services - Hasbaya Municipality",
+    "projects": "Projects - Hasbaya Municipality",
+    "news": "News - Hasbaya Municipality",
+    "media": "Media - Hasbaya Municipality",
+    "contact": "Contact Us - Hasbaya Municipality"
+  },
+  "file": "More information",
+  "cards": [
+    {
+      "title": "Clearance Certificate Request",
+      "imageSrc": "/payments/2.jpg",
+      "link": "/payments/clearance",
+      "enabled": true
+    },
+    {
+      "title": "Inquiry About Due Municipal Fees",
+      "imageSrc": "/payments/3.jpg",
+      "link": "/payments/municipalFees",
+      "enabled": true
+    },
+    {
+      "title": "Municipal Fee Installment Request",
+      "imageSrc": "/payments/3.jpg",
+      "link": "/services/file2.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Municipal Fees Objection Request",
+      "imageSrc": "/payments/4.jpg",
+      "link": "/services/file1.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Permanent/Temporary Advertisement Permit Request",
+      "imageSrc": "/payments/5.jpg",
+      "link": "/services/file0.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Disability Residence Fee Exemption Request",
+      "imageSrc": "/payments/1.jpg",
+      "link": "/services/file4.pdf",
+      "enabled": false
+    }
+  ],
+  "cards2": [
+    {
+      "title": "Appraisal Report Request",
+      "imageSrc": "/realEstate/1.jpg",
+      "link": "/realEstate/appraisal-report",
+      "enabled": true
+    },
+    {
+      "title": "Easement and Zoning Certificate",
+      "imageSrc": "/realEstate/2.jpg",
+      "link": "/realEstate/easement-and-zoning",
+      "enabled": true
+    },
+    {
+      "title": "Occupancy Certificate",
+      "imageSrc": "/realEstate/11.jpg",
+      "link": "/realEstate/occupancy-certificate",
+      "enabled": true
+    },
+    {
+      "title": "Vacancy Certificate",
+      "imageSrc": "/realEstate/12.jpg",
+      "link": "/realEstate/vacancy-certificate",
+      "enabled": true
+    },
+    {
+      "title": "Property Contents Certificate",
+      "imageSrc": "/realEstate/13.jpg",
+      "link": "/realEstate/property-contents",
+      "enabled": true
+    },
+    {
+      "title": "Unauthorized Construction Completion Certificate",
+      "imageSrc": "/realEstate/14.jpg",
+      "link": "/realEstate/unauthorized-construction",
+      "enabled": true
+    },
+
+    {
+      "title": "Rental Contract Registration Request",
+      "imageSrc": "/realEstate/1.jpg",
+      "link": "/files/1.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Building Permit Request",
+      "imageSrc": "/realEstate/2.jpg",
+      "link": "/files/2.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Building Violation Settlement Request",
+      "imageSrc": "/realEstate/3.jpg",
+      "link": "/files/3.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Building Permit Renewal Request",
+      "imageSrc": "/realEstate/4.jpg",
+      "link": "/files/4.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Land Price Evaluation Request",
+      "imageSrc": "/realEstate/5.jpg",
+      "link": "/files/5.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Request to Purchase Municipal Property",
+      "imageSrc": "/realEstate/6.jpg",
+      "link": "/files/6.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Request to Merge Private Road into Public Property",
+      "imageSrc": "/realEstate/7.jpg",
+      "link": "/files/7.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Request to Add Construction Above Existing Structure",
+      "imageSrc": "/realEstate/8.jpg",
+      "link": "/files/8.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Sewage Connection Request to Public Network",
+      "imageSrc": "/realEstate/9.jpg",
+      "link": "/files/9.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Notice of Works or Change in Usage",
+      "imageSrc": "/realEstate/10.jpg",
+      "link": "/files/10.pdf",
+      "enabled": false
+    }
+  ],
+  "cards3": [
+    {
+      "title": "Complaint / Review / Other Requests",
+      "imageSrc": "/adminServices/6.jpg",
+      "link": "/adminServices/complaint-review",
+      "enabled": true
+    },
+    {
+      "title": "Permit Request",
+      "imageSrc": "/payments/4.jpg",
+      "link": "/adminServices/permit-request",
+      "enabled": true
+    },
+    {
+      "title": "Sewage Network Connection Certificate",
+      "imageSrc": "/adminServices/5.jpg",
+      "link": "/adminServices/sewage-network",
+      "enabled": true
+    },
+    {
+      "title": "Foreign/Displaced Worker Form",
+      "imageSrc": "/adminServices/7.jpg",
+      "link": "/adminServices/worker-form",
+      "enabled": true
+    },
+    {
+      "title": "Occupation Permit Request (Housing)",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a1.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Request for Statement or Certificate",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a2.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Request for Declaration Receipt",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a3.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Complaint or Review",
+      "imageSrc": "/adminServices/6.jpg",
+      "link": "/files/a4.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Permit for Fuel Distribution Stations",
+      "imageSrc": "/adminServices/3.jpg",
+      "link": "/files/a5.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Permit for First/Second Category Establishment (Non-Industrial)",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a6.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Permit to Establish and Operate Entertainment Venues",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a7.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Permit for Municipal Public Property Occupation",
+      "imageSrc": "/adminServices/4.jpg",
+      "link": "/files/a8.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Street Vending Profession Permit Request",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a9.pdf",
+      "enabled": false
+    },
+    {
+      "title": "Declaration Receipt for Third Category Establishment (Non-Industrial)",
+      "imageSrc": "/adminServices/1.jpg",
+      "link": "/files/a10.pdf",
+      "enabled": false
+    }
+  ],
+  "realEstate": {
+    "title1": "Appraisal Report Request",
+    "title2": "Easement and Zoning Certificate",
+    "title3": "Occupancy Certificate",
+    "title4": "Vacancy Certificate",
+    "title5": "Property Contents Certificate",
+    "title6": "Unauthorized Construction Completion Certificate"
+  },
+  "adminServices": {
+    "title1": "Complaint / Review / Other Requests",
+    "title2": "Permit Request",
+    "title3": "Sewage Network Connection Certificate",
+    "title4": "Foreign/Displaced Worker Form"
+  },
+  "violationProof": "A document proving the date of the violation completion",
+  "unauthorizedConstruction": "I hereby submit my request to obtain an Unauthorized Construction Completion Certificate",
+  "permitRequest": "I hereby submit my request to obtain an Permit Request",
+  "propertyContents": "I hereby submit my request to obtain an Property Contents Certificate",
+  "occupancyCertificate": "I hereby submit my request to obtain an Occupancy Certificate",
+  "easementAndZoning": "I hereby submit my request to obtain an Easement and Zoning Receipt",
+  "appraisalReport": "I hereby submit my request to obtain an Appraisal Report.",
+  "clearanceTitle": "Clearance Certificate Request",
+  "municipalFees": "Inquiry About Due Municipal Fees",
+  "clearanceNote1": "All fields marked with an asterisk (*) are required and must be filled before submitting the request.",
+  "clearanceNote2": "When collecting the requested certificate, please present the original documents in paper form.",
+  "owner": "Owner",
+  "legalRep": "Legal Representative",
+  "tenant": "Tenant",
+  "legalDocNote": "Legal authorization document",
+  "tenantNote1": "Show a copy of the legally registered lease contract",
+  "tenantNote2": "Written consent of the owner signed by the chosen one",
+  "upload": "Upload Files",
+  "fileCount": "File Count",
+  "fullName": "Full Name",
+  "fullNamePlaceholder": "Please enter your full name",
+  "address": "Address",
+  "addressPlaceholder": "Please enter your address",
+  "floor": "Floor",
+  "property": "Owned property",
+  "phone": "Phone Number",
+  "phonePlaceholder": "Please enter your phone number",
+  "whatsapp": "Can be contacted via WhatsApp",
+  "email": "Email",
+  "emailPlaceholder": "Please enter your email",
+  "clearanceRequestTitle": "I am applying to obtain a municipal clearance certificate",
+  "duesRequestTitle": "I hereby submit my request to inquire about the due municipal fees",
+  "reason": "Purpose of the request",
+  "reasonPlaceholder": "Please enter the reason",
+  "taxpayerLabel": "About the taxpayer",
+  "taxpayerPlaceholder": "Please enter the name of the concerned person",
+  "propertyNumber": "Property Number",
+  "propertyNumberPlaceholder": "Please enter the property number",
+  "sectionNumber": "Section Number",
+  "sectionNumberPlaceholder": "Please enter the section number",
+  "locationNote": "Located in the Hasbaya Municipality area",
+  "documentTitle": "Required Documents",
+  "documentSubtitle": "Document proving owner's identity",
+  "optionId": "ID Image",
+  "optionExtract": "Family Record Extract",
+  "uploadFrontId": "Owner's ID (Front Side)",
+  "uploadBackId": "Owner's ID (Back Side)",
+  "uploadExtract": "Upload Family Record Extract",
+  "propertyStatement": "A comprehensive property certificate dated no more than three months ago",
+  "constructionProof": "Any document proving the completion of the construction",
+  "divisionMaps": "If the property is subdivided, subdivision maps must be provided",
+  "notes": "Notes",
+  "notes2": "Guaranteed",
+  "send": "Send",
+  "paymentReminder": "Please make sure to settle the residential or non-residential fees due before collecting the request.",
+  "processingTimeTitle": "Processing Time:",
+  "processingTimeDetails": "Three working days as per Circular No. 8/99 issued by the Minister of Interior and Municipalities.",
+  "processingTimeNote": "(Processing time may vary based on the current national crisis conditions.)",
+  "contactInfo": "For inquiries, you may call 70 045 449 from Monday to Friday between 9:00 AM and 1:00 PM.",
+  "notesTitle": "Notes:",
+  "notesDetailsStructured": {
+    "points": [
+      {
+        "title": "When there are violations in the individual units or the shared areas, the clearance process is suspended until the following two conditions are met:",
+        "subPoints": [
+          "The owner of the violating unit must file a lawsuit before the court to remove the violation in the shared areas, stating that the violation occurred without their consent, and register the lawsuit in the land registry.",
+          "The owner of the violating unit must submit a notarized affidavit authorizing the municipality or public authority to carry out the demolition."
+        ]
+      },
+      {
+        "title": "A clearance certificate may be granted for a non-violating unit or a unit whose violations have been resolved.",
+        "note": "Clearance will be withheld for the violating unit if a violation exists in the shared area until the lawsuit and the authorization mentioned above are submitted."
+      }
+    ]
+  },
+  "requestReason": "Request Reason:",
+  "reasonTransfer": "Transfer Procedure",
+  "reasonSale": "Sale Procedure",
+  "reasonLicense": "Construction License Procedure",
+  "reasonOther": "Other Reason",
+  "otherReasonPlaceholder": "Please enter another reason",
+  "comprehensivePropertyStatement": "A comprehensive property statement not older than three months",
+  "appraisalCommitteeDescription": "The appraisal of the square meter sale price of the property's land is conducted by a special committee formed by a decision of the head of the municipality's executive authority. The committee is composed of a municipal council member as chairman, an engineer, and an employee from the Ministry of Interior and Municipalities.",
+  "buildingStatus": "Building Status",
+  "noConstruction": "No construction",
+  "withConstruction": "Has construction",
+  "unlicensed": "Unlicensed",
+  "licensedNoHousing": "Licensed (without housing permit)",
+  "licensedWithHousing": "Licensed (with housing permit)",
+  "buildingPermitLabel": "Show Building Permit",
+  "housingPermitLabel": "Show Housing Permit (Occupancy)",
+  "declarationTitle": "I hereby request a permit for",
+  "reasons": {
+    "restoration": "Restoration",
+    "constructionWall": "Build a Fence",
+    "supportWall": "Build Support Walls",
+    "landLeveling": "Land leveling or grading",
+    "tent": "Tent Installation",
+    "portableHouse": "Place a prefab house (e.g., container)",
+    "piles": "Install Piles",
+    "sewage": "Connect to sewage system",
+    "demolition": "Demolition",
+    "other": "Other Reasons"
+  },
+  "boundarySurvey": "Survey map with plot markings signed by a certified surveyor (boundaries must be physically marked on site)",
+  "surveyMap": "Certified copy of the property survey map",
+  "networkDiagram": "Survey map with property pegs signed by a sworn surveyor (must include visible boundary markers on site)",
+  "openCodeEntry": "Enter Code",
+  "codeEntryTitle": "Enter the Code and Birth Date",
+  "codeLabel": "Code",
+  "codePlaceholder": "Enter your code *",
+  "birthDateLabel": "Birth Date",
+  "birthDatePlaceholder": "Select your birth date *",
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "mainInfoTitle": "Main Information",
+  "name": "Name",
+  "namePlaceholder": "Please enter the name",
+  "surname": "Surname",
+  "surnamePlaceholder": "Please enter the Surname",
+  "nationality": "Nationality",
+  "nationalityPlaceholder": "Please enter the nationality",
+  "fatherName": "Father's Name",
+  "fatherNamePlaceholder": "Please enter the father's name",
+  "motherName": "Mother's Name and Maiden Name",
+  "motherNamePlaceholder": "Please enter the mother's name and maiden name",
+  "nationalId": "National ID / Registry Number",
+  "nationalIdPlaceholder": "Please enter the national ID or registry number",
+  "gender": "Gender",
+  "socialStatus": "Social Status",
+  "unAssistance": "Benefit from UN Program",
+  "genderOptions": ["Male", "Female"],
+  "statusOptions": ["Single", "Married", "Divorced", "Widowed"],
+  "unOptions": ["Yes", "No"],
+  "lebanonEntryDate": "Date of Entry to Lebanon",
+  "lebanonEntryDatePlaceholder": "Enter entry date to Lebanon",
+  "municipalityEntryDate": "Date of Entry to Municipality",
+  "municipalityEntryDatePlaceholder": "Enter entry date to municipality",
+  "mobilePhone": "Mobile Phone Number",
+  "mobilePhonePlaceholder": "Enter mobile phone number",
+  "landlinePhone": "Landline Phone Number",
+  "landlinePhonePlaceholder": "Enter landline phone number",
+  "bloodType": "Blood Type",
+  "bloodTypeOptions": ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"],
+  "educationLevel": "Education Level",
+  "educationOptions": [
+    "University",
+    "Intermediate",
+    "Secondary",
+    "Vocational",
+    "Uneducated"
+  ],
+  "militaryService": "Subject to Military Service",
+  "yesNoOptions": ["Yes", "No"],
+  "residenceNote": "Please enter your current residence address, the property owner's name, and their phone number",
+  "preDisplacementAddress": "Please enter the residence address before displacement",
+  "entryMethod": "Method of entry to Lebanon",
+  "personalPhoto": "Personal photo",
+  "backPrefix": "Click here to go back to",
+  "faqTitle": "Know what you need to submit any request",
+  "faqItems": [
+    {
+      "title": "Violation Construction Report",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months",
+        "Document proving date of violation"
+      ],
+      "uses": [
+        "To settle a violation with the Directorate of Urban Planning",
+        "To register the construction officially on land records (housing)"
+      ]
+    },
+    {
+      "title": "Occupancy Certificate",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": [
+        "To transfer ownership of property",
+        "To request water or electricity subscription",
+        "To confirm actual occupancy"
+      ]
+    },
+    {
+      "title": "Vacancy Certificate",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": [
+        "To request tax exemption from municipality or property tax. (Only the owner or legal representative may request this)"
+      ]
+    },
+    {
+      "title": "Municipal Clearance",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months",
+        "If there is construction: proof of construction",
+        "If subdivided: attach subdivision maps"
+      ],
+      "uses": [
+        "To prove no municipal dues remain",
+        "For property sale",
+        "To renew industrial/commercial/agricultural licenses"
+      ]
+    },
+    {
+      "title": "Complaint / Review / Other",
+      "documents": ["ID card or family civil record"],
+      "uses": [
+        "Anyone who has a specific request and does not find it among the requests on the platform can submit it through this form.",
+        "Anyone who has a specific complaint can submit it through the Muqabha platform, and thus the municipality can contact him when reviewing his complaint."
+      ]
+    },
+    {
+      "title": "Easement & Zoning Certificate",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": [
+        "To identify planning impacts (roads, utilities...)",
+        "Easement to determine the property specifications (classification as villas, industrial, residential, commercial, agricultural, architectural heritage.)",
+        "The citizen requests it to know the percentage of the total area of ​​the property that is allowed to be invested in construction",
+        "It is required by the property owner or engineer to prepare the building permit"
+      ]
+    },
+    {
+      "title": "Appraisal Report Request",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": [
+        "To estimate square meter price",
+        "To proceed with licensing or ownership transfer"
+      ]
+    },
+    {
+      "title": "Contents Report",
+      "documents": [
+        "ID card or family civil record",
+        "Property certificate no older than 3 months",
+        "Construction permit / Occupancy / Sale contract (if applicable)"
+      ],
+      "case": [
+        "Building permit if the building is licensed without housing",
+        "Building permit and residential (occupancy) permit if the building is licensed with housing",
+        "A copy of the sales contract if the reason for the request is to conduct a sales transaction"
+      ],
+      "uses": [
+        "To complete a sale, transfer, building permit, electricity subscription application, water subscription application, industrial/agricultural/commercial license renewal application",
+        "For electricity/water/industrial/commercial requests"
+      ]
+    },
+    {
+      "title": "Fee Inquiry (for taxpayer)",
+      "documents": ["ID card or family civil record"],
+      "uses": ["To check dues on the taxpayer"]
+    },
+    {
+      "title": "Fee Inquiry (for property)",
+      "documents": [
+        "ID card or family civil record",
+        "A copy of the sales contract if the reason for the request is to conduct a sales transaction",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": ["To check dues on the property"]
+    },
+    {
+      "title": "Permit Request (Renovation, Fencing, Support...)",
+      "documents": [
+        "Copy of ID or family civil registry extract",
+        "Property statement issued within the last three months",
+        "Easement and zoning statement",
+        "Survey map with property markings signed by a sworn surveyor (boundary markers must be present on the property)",
+        "Copy of the sales contract if the request is related to a sales transaction"
+      ],
+      "example": [
+        "Permit to build a fence",
+        "Permit to build retaining walls",
+        "Permit to level or excavate the land",
+        "Demolition permit",
+        "Permit to install a tiled tent",
+        "Permit to place a ready-made house (container)",
+        "Permit to connect the building to the sewage system",
+        "Permit to place drainage channels (Ghawariz)"
+      ]
+    },
+    {
+      "title": "Sewage Connection Certificate",
+      "documents": [
+        "Ownership proof",
+        "ID card or family civil record",
+        "Property certificate no older than 3 months"
+      ],
+      "uses": [
+        "To confirm connection to public sewage system",
+        "To process housing application"
+      ]
+    }
+  ],
+  "documentsTitle": "Required Documents",
+  "usesTitle": "Why You Need It",
+  "caseTitle": "If there is a building",
+  "exampleTitle": "Examples of permits that can be requested from the municipality are",
+  "fact": "This permit is not considered a legal license; it is only for facilitating municipal procedures",
+  "toast": {
+    "validationError": "Please fill in all required fields marked with *",
+    "submitSuccess": "Form submitted successfully!",
+    "submitError": "Error submitting form:",
+    "connectionError": "Failed to connect to server.",
+    "agentDocMissing": "Please upload the required legal document.",
+    "tenantDocMissing": "Please upload the required tenant documents.",
+    "requiredField": "This field is required."
+  },
+  "backToRequests": "Click here to return to the list of requests of Hasbaya Al-Metn Municipality",
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "button": "Login",
+    "success": "Logged in successfully",
+    "invalidCredentials": "Invalid username or password.",
+    "failed": "Login failed. Please try again.",
+    "requiredFields": "All fields are required",
+    "loading": "Logging in...",
+    "rateLimiteWithTime": "Too many login attempts. Please try again after {{minutes}} minute(s)."
+  },
+  "admin": {
+    "fetchError": "Failed to fetch news.",
+    "deleteError": "Failed to delete news.",
+    "news": "News",
+    "addNews": "Add News",
+    "submitNews": "Submit News",
+    "addNewsTitle": "Add New News",
+    "logout": "Logout",
+    "upload": "Upload Image",
+    "titleAr": "Title (Arabic)",
+    "titleEn": "Title (English)",
+    "descAr": "Description (Arabic)",
+    "descEn": "Description (English)",
+    "newsSuccess": "News created successfully",
+    "newsError": "Error creating news",
+    "newsDeleted": "News item deleted.",
+    "newsUpdated": "News item updated.",
+    "update": "Update",
+    "createdAt": "Created At",
+    "actions": "Actions",
+    "image": "Image",
+    "updateNewsTitle": "Update News Item",
+    "confirmDeleteTitle": "Are you sure you want to delete this news?",
+    "confirmDeleteTitleProject": "Are you sure you want to delete this project?",
+    "cancel": "Cancel",
+    "confirm": "Delete",
+    "maxFiles": "You can upload up to 5 images only.",
+    "updateError": "Failed to update news. Please try again.",
+    "addProjects": "Add Projects",
+    "addProjectsTitle": "Add New Project",
+    "fetchErrorProjects": "Failed to fetch projects.",
+    "deleteSuccessProjects": "Project deleted successfully.",
+    "updateProjectsTitle": "Update Project",
+    "projectsUpdated": "Project updated successfully.",
+    "updateErrorP": "Update failed.",
+    "deleteErrorProjects": "Failed to delete the project.",
+    "projectsSuccess": "Project created successfully.",
+    "projectsError": "Failed to create project.",
+    "submitProject": "Submit Project"
+  },
+  "pagination": {
+    "rowsPerPage": "Rows per page",
+    "displayedRows": "{{from}}–{{to}} of {{count}}"
+  },
+  "backToNews": "Click here to return to the news list",
+  "backToProjects": "Click here to return to the projects list"
+}

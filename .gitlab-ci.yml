@@ -1,0 +1,47 @@
+stages:
+  - build_and_deploy
+
+build_and_deploy:
+  stage: build_and_deploy
+  before_script:
+    # Setup SSH key
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa_hasbaya
+    - chmod 600 ~/.ssh/id_rsa_hasbaya
+    - ssh-keyscan -H $REMOTE_HOST >> ~/.ssh/known_hosts
+
+    # Setup Node environment
+    - export NVM_DIR="$HOME/.nvm"
+    - source "$NVM_DIR/nvm.sh"
+    - nvm install 22
+    - nvm use 22
+  script:
+    - echo "Installing dependencies..."
+    - npm install
+    - echo "Building Next.js app..."
+    - npm run build
+
+    # Ensure correct permissions on remote
+    - ssh -i ~/.ssh/id_rsa_hasbaya $REMOTE_USER@$REMOTE_HOST "
+        sudo mkdir -p $DEPLOY_PATH &&
+        sudo chown -R $REMOTE_USER:$REMOTE_USER $DEPLOY_PATH &&
+        sudo chmod -R 755 $DEPLOY_PATH
+      "
+
+    # Rsync only what’s needed (built output + static files)
+    - echo "Syncing build to production server..."
+    - rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa_hasbaya" .next public next.config.mjs package.json package-lock.json $REMOTE_USER@$REMOTE_HOST:$DEPLOY_PATH
+
+    # Install and restart frontend with PM2
+    - ssh -i ~/.ssh/id_rsa_hasbaya $REMOTE_USER@$REMOTE_HOST "
+        export NVM_DIR=\"\$HOME/.nvm\" &&
+        source \"\$NVM_DIR/nvm.sh\" &&
+        nvm use 22 &&
+        cd \"$DEPLOY_PATH\" &&
+        npm install --omit=dev &&
+        pm2 restart hasbaya_frontend --update-env || pm2 start npm --name hasbaya_frontend -- start -- --port 3000 &&
+        pm2 save &&
+        pm2 status
+      "
+  only:
+    - main

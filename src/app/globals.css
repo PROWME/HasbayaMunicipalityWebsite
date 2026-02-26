@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("/fonts/Tajawal-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mada";
+  src: url("/fonts/Mada-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("/fonts/Cairo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-english {
+    font-family: "Cairo", sans-serif;
+  }
+
+  .font-arabic {
+    font-family: "Mada", sans-serif;
+  }
+}
+
+
+/* Make pagination bullets white and larger */
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #D94F30 !important; /* Optional: custom active color */
+}
