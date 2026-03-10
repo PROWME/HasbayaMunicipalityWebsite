@@ -1,0 +1,61 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa_hasbaya
+          chmod 600 ~/.ssh/id_rsa_hasbaya
+          ssh-keyscan -H ${{ secrets.REMOTE_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Ensure remote deploy path exists
+        run: |
+          ssh -i ~/.ssh/id_rsa_hasbaya ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "
+            sudo mkdir -p '${{ secrets.DEPLOY_PATH }}' &&
+            sudo chown -R ${{ secrets.REMOTE_USER }}:${{ secrets.REMOTE_USER }} '${{ secrets.DEPLOY_PATH }}' &&
+            sudo chmod -R 755 '${{ secrets.DEPLOY_PATH }}'
+          "
+
+      - name: Sync files to server
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/id_rsa_hasbaya" \
+            .next public next.config.mjs package.json package-lock.json \
+            ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:${{ secrets.DEPLOY_PATH }}
+
+      - name: Install production deps and restart PM2
+        run: |
+          ssh -i ~/.ssh/id_rsa_hasbaya ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "
+            export NVM_DIR=\"\$HOME/.nvm\" &&
+            [ -s \"\$NVM_DIR/nvm.sh\" ] && . \"\$NVM_DIR/nvm.sh\" &&
+            nvm use 22 &&
+            cd '${{ secrets.DEPLOY_PATH }}' &&
+            npm install --omit=dev &&
+            pm2 restart hasbaya_frontend --update-env || pm2 start npm --name hasbaya_frontend -- start -- --port 3000 &&
+            pm2 save &&
+            pm2 status
+          "
